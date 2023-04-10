@@ -47,7 +47,9 @@ table {
 	border-spacing: 0;
 }
 /* fin del reset */
-
+body{
+background-color: aliceblue;
+}
 /*style by Stefano Gaete
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWNNX0OkkkxxkkkOKXNNWMMMMMMMMMMMMMMMWWNNNXXK0Okkkdc;.  ..  ;KMMMMMM
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNKkdc;,'............',;:odxxxkxxxxxdddoc:;,,,'...........''. .dNMMMMMM
