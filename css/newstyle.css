@@ -51,11 +51,14 @@ body{
 background-color: aliceblue;
 }
 .menu{
+	margin-top: 0px;
 	position:absolute;
 }
 .producto{
+	margin: 40px ;
 	width: 500px;
 	height: 450px;
+	border: 1px;
 	border-style: dotted;
 }
 /*style by Stefano Gaete

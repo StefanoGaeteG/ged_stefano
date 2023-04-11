@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <?php include_once "head.php" ?>
+    <link rel="stylesheet" href="css/newstyle.css">
 </head>
 <body>
     <div class="menu">
