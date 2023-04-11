@@ -10,6 +10,11 @@
             <input type="button" value="buscar" id="buscar">
         </nad>
     </div>
+    <div class="producto">
+        <div class="img_p">
+            <img src="" alt="imagen producto" id="img_p" >
+        </div>
+    </div>
 </body>
 </html>
 <script src="js/myjs.js"></script>

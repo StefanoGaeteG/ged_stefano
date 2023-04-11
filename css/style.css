@@ -50,6 +50,14 @@ table {
 body{
 background-color: aliceblue;
 }
+.menu{
+	position:absolute;
+}
+.producto{
+	width: 500px;
+	height: 450px;
+	border-style: dotted;
+}
 /*style by Stefano Gaete
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWNNX0OkkkxxkkkOKXNNWMMMMMMMMMMMMMMMWWNNNXXK0Okkkdc;.  ..  ;KMMMMMM
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNKkdc;,'............',;:odxxxkxxxxxdddoc:;,,,'...........''. .dNMMMMMM
