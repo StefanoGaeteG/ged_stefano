@@ -15,6 +15,17 @@
         <div class="img_p">
             <img src="" alt="imagen producto" id="img_p" >
         </div>
+        <div class="boxtext">
+            <p id="data1">dasddas</p>
+            <p id="data2">dasddas</p>
+            <p id="data3">dasddas</p>
+            <p id="data4">dasddas</p>
+            <p id="data5">dasddas</p>
+            <p id="data6">dasddas</p>
+            <p id="data7">dasddas</p>
+            <p id="data8">dasddas</p>
+            <p id="data9">dasddas</p>   
+        </div>
     </div>
 </body>
 </html>
