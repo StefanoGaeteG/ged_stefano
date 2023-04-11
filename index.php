@@ -5,11 +5,14 @@
 </head>
 <body>
     <div class="menu">
-        <nad><input type="text"  name="" id=""><input type="button" value="buscar"></nad>
+        <nad>
+            <input type="text"  name="" id="CTB">
+            <input type="button" value="buscar" id="buscar">
+        </nad>
     </div>
 </body>
 </html>
-
+<script src="js/myjs.js"></script>
 <!--
 by Stefano Gaete
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWNNX0OkkkxxkkkOKXNNWMMMMMMMMMMMMMMMWWNNNXXK0Okkkdc;.  ..  ;KMMMMMM
