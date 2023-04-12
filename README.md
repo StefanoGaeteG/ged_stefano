@@ -3,11 +3,11 @@
 
  AS = Adicional a sugerid
 
-# 12/04/23 entrevista con dueño de empresa
-   ----- punto optenidos de entrevista ---
++ 12/04/23 entrevista con dueño de empresa
+    ----- punto optenidos de entrevista ---
      sotfware de control de inventario
     objetivo 1 manejo y control de inventario 
     objetivo 2 extension a locales aliados
     AS sugerido objetivo 3 imprementacion de solicitud semi automatico de parte
 
-# proxima entrevista/revision de avance 14/04/23
++ proxima entrevista/revision de avance 14/04/23
