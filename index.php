@@ -24,7 +24,17 @@ session_start();
         <div class="input-field col s12">
           <i class="material-icons prefix">textsms</i>
           <input type="text" id="autocomplete-input" class="autocomplete">
-          <label for="autocomplete-input">Autocomplete</label>
+          <label for="autocomplete-input">marca</label>
+        </div>
+        <div class="input-field col s6">
+          <i class="material-icons prefix">textsms</i>
+          <input type="text" id="autocomplete-input" class="autocompleteMS">
+          <label for="autocomplete-input">serie</label>
+        </div>
+        <div class="input-field col s6">
+          <i class="material-icons prefix">textsms</i>
+          <input type="text" id="autocomplete-input" class="autocompleteMSM">
+          <label for="autocomplete-input">modelo</label>
         </div>
       </div>
     </div>
@@ -36,25 +46,29 @@ session_start();
 <!-- perosona script java script-->
 <script src="js/myjs.js"></script>
 <script>
+  /*
     document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.autocomplete');
   var instances = M.Autocomplete.init(elems, options);
 });
-
+*/
 
 // Or with jQuery
 
 $(document).ready(function(){
   $('input.autocomplete').autocomplete({
-    data: {
-      "Apple": null,
-      "Microsoft": null,
-      "Google": 'https://placehold.it/250x250'
-    },
+    data:  { 
+      <?php include "test.php" ;?> 
+    }
   });
 });
 </script>
 <!-- style by Stefano Gaete
+
+      "Apple": null,
+      "Microsoft": null,
+      "acer": 'img/acer.png'
+
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWNNX0OkkkxxkkkOKXNNWMMMMMMMMMMMMMMMWWNNNXXK0Okkkdc;.  ..  ;KMMMMMM
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNKkdc;,'............',;:odxxxkxxxxxdddoc:;,,,'...........''. .dNMMMMMM
 MMMMMMMMMMMMMMMMMMMMMMMMMMWN0d;......'',,;;;;;,,'.........................'''',,''''''''. .lKMMMMMMM
