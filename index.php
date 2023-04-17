@@ -14,40 +14,47 @@ session_start();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- personal css -->
-    <link rel="stylesheet" href="css/style.css">    
+    <!-- personal css
+    <link rel="stylesheet" href="css/style.css">   -->  
 </head>
 <body>
-    <div class="menu">
-        <nad>
-            <input type="text"  name="" id="CTB">
-            <input type="button" value="buscar" id="buscar">
-        </nad>
-    </div>
-    <div class="producto">
-        <div class="img_p">
-            <img src="" alt="imagen producto" id="img_p" >
+<div class="row">
+    <div class="col s6">
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">textsms</i>
+          <input type="text" id="autocomplete-input" class="autocomplete">
+          <label for="autocomplete-input">Autocomplete</label>
         </div>
-        <div class="boxtext">
-            <p id="data1">marca: <b></b> </p>
-            <p id="data2">serie: <b></b></p>
-            <p id="data3">modelo: <b></b></p>
-            <p id="data4">tipo:</p>
-            <p id="data5">CT:</p>
-            <p id="data6">dasddas</p>
-            <p id="data7">dasddas</p>
-            <p id="data8">dasddas</p>
-            <p id="data9">dasddas</p>   
-        </div>
+      </div>
     </div>
+  </div>
 </body>
 </html>
 <!--JavaScript at end of body for optimized loading-->
 <script type="text/javascript" src="js/materialize.min.js"></script>
 <!-- perosona script java script-->
 <script src="js/myjs.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.autocomplete');
+  var instances = M.Autocomplete.init(elems, options);
+});
 
-/*style by Stefano Gaete
+
+// Or with jQuery
+
+$(document).ready(function(){
+  $('input.autocomplete').autocomplete({
+    data: {
+      "Apple": null,
+      "Microsoft": null,
+      "Google": 'https://placehold.it/250x250'
+    },
+  });
+});
+</script>
+<!-- style by Stefano Gaete
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWNNX0OkkkxxkkkOKXNNWMMMMMMMMMMMMMMMWWNNNXXK0Okkkdc;.  ..  ;KMMMMMM
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNKkdc;,'............',;:odxxxkxxxxxdddoc:;,,,'...........''. .dNMMMMMM
 MMMMMMMMMMMMMMMMMMMMMMMMMMWN0d;......'',,;;;;;,,'.........................'''',,''''''''. .lKMMMMMMM
@@ -98,4 +105,4 @@ MMMMMMMMMMMMMMMNOo;..,cxOXNKOONMMMMMMMMMMMMMMMMMMMMMMMXl.                       
 o..'l0NMMMMMMMMMMMMW0:..lKWMMMMMMMMMMMMMMMMMMMMMWNXXKKKK0Oxc'           ,kNMMMMMMMMMMMMMMWN0d,.  ...
 WKo'..;d0NMMMMMMMMWO;.,xNMMMMMMMMMMMMMMMMMMMMMWWNNNNNNNNNNNX0l.        ;0WMMMMMMMMMMMMMMMMMMWXOkl:,.
 MMWKd'  .lOWMMMMMMWx';OWMMMMMMMMMMMMMMMMMMMMMMNNXNNNNNNNNNNNNKl.      ,OWMMMMMMMMMMMMMMMMMMMMMMMWWXO
-*/
+--> 

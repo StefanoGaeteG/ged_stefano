@@ -11,3 +11,6 @@
      + AS objetivo 3 imprementacion de solicitud semi automatico de parte
 
 + proxima entrevista/revision de avance 14/04/23
+
++ upddate 
+    el estilo pasara usar de materialize  -17/04/23
